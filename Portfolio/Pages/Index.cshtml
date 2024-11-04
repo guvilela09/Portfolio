@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem-Vindo ao Meu Mundo!</h1>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Resumo Profissional
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Sobre Mim!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-dark-emphasis">
+                        Atualmente, aplico minhas habilidades práticas como Técnico em Manutenção de Computadores na Waldesa Oficial. Com uma forte base em C# , .NET, Razor e gestão de bases de dados MySQL, 
+                        estou comprometido em desenvolver soluções tecnológicas eficazes e inovadoras.
+                        Trabalhar com tecnologia é mais do que uma profissão para mim; é um campo onde posso contribuir significativamente e colaborar para o avanço do setor. 
+                        Minha experiência na Movebuss Soluções em Mobilidade Urbana Ltda. fortaleceu minha capacidade de trabalhar em equipe e adaptar-me rapidamente a novos desafios, preparando-me para impactar positivamente projetos futuros.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
