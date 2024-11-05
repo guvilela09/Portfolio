@@ -3,17 +3,39 @@
 @{
     ViewData["Title"] = "Contato";
 }
-<h1>@ViewData["Title"]</h1>
 
-<div class="card-body text-center" style="width: 18rem;">
-    <img src="~/Imagens/foto-menu.jpg" class="card-img-top" alt="logo" style="height: 200px;">
+<div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 20rem;">
+    <img src="~/Imagens/logo GV.jpeg" class="card-img-top rounded-circle" alt="logo" style="height: 200px;">
     <div class="card-body">
-        <h5 class="card-title">Contato</h5>
+        <h5 class="card-title text-center">Contato</h5>
         <p class="card-text">
-            <br>Celular: (11) 94222-9987
-            <br>Email: guuvilela08@gmail.com
+            <i class="bi bi-phone-fill text-dark">Celular: (11) 94222-9987</i>
+            <br>
+            <i class="bi bi-envelope-fill text-dark">Email: guuvilela08@gmail.com</i>
         </p>
-        <a href="https://github.com/guvilela09?tab=overview&from=2023-03-01&to=2023-03-31"><i class="bi bi-github" style="font-size: 2rem; color: grey;"></i></a>
-        <a href="https://www.linkedin.com/in/gustavo-vilela-46440b242/"><i class="bi bi-linkedin" style="font-size: 2rem;"></i></a>
+
+        <footer class="bg-body-tertiary text-center">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <section class="mb-4">
+                    <!-- Linkedin -->
+                    <a data-mdb-ripple-init
+                       class="btn text-white btn-floating m-1"
+                       style="background-color: #0082ca;"
+                       href="https://www.linkedin.com/in/gustavo-vilela-46440b242/"
+                       role="button">
+                        <i class="bi bi-linkedin" style="font-size: 2rem;"></i>
+                    </a>
+                    <!-- Github -->
+                    <a data-mdb-ripple-init
+                       class="btn text-white btn-floating m-1"
+                       style="background-color: #333333;"
+                       href="https://github.com/guvilela09?tab=overview&from=2023-03-01&to=2023-03-31"
+                       role="button">
+                        <i class="bi bi-github" style="font-size: 2rem;"></i>
+                    </a>
+                </section>
+            </div>
+        </footer>
     </div>
 </div>

@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Portfolio.styles.css" asp-append-version="true" />
 </head>
-<body>
+<body style="color: #536d88; background-color: #fff9ff;">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
+        <nav class="navbar bg-body-tertiary navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color: #0f132e;">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/index">Inicio</a>
+                <a class="navbar-brand text-white" asp-area="" asp-page="/index"><i class="bi bi-p-square-fill" style="font-size: 2rem;"></i></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -21,10 +21,13 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link active" asp-area="" asp-page="/Portfolio">Portfolio</a>
+                            <a class="nav-link active text-white" asp-area="" asp-page="/Portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" asp-area="" asp-page="/Privacy">Contato</a>
+                            <a class="nav-link active text-white" asp-area="" asp-page="/Privacy">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" asp-area="" asp-page="/SobreMim">Sobre Mim</a>
                         </li>
                     </ul>
                 </div>
@@ -37,9 +40,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container text-center">
-            2024 G V Santos (Gustavo Vilela dos Santos) - Portfolio - <a asp-area="" asp-page="/Privacy">Contato</a>
+    <footer class="footer text-muted">
+        <div class="text-center p-3">
+            © 2024 Copyright: Gustavo Vilela Dos Santos
         </div>
     </footer>
 
